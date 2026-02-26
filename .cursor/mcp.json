@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "samwise-curriculum": {
+      "url": "http://localhost:9324/mcp",
+      "transport": "streamable-http"
+    }
+  }
+}

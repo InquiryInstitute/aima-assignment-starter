@@ -1,0 +1,31 @@
+{
+  "name": "AIMA Assignment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20",
+      "nodeGypDependencies": true
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11",
+      "installTools": true
+    }
+  },
+  "forwardPorts": [9324],
+  "portsAttributes": {
+    "9324": {
+      "label": "MCP Curriculum Server",
+      "visibility": "private"
+    }
+  },
+  "postCreateCommand": "npm install && cd samwise-curriculum-common && npm install && npm run build",
+  "postStartCommand": "nohup npx samwise-curriculum-server --port 9324 >> /tmp/mcp-server.log 2>&1 &",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-python.vscode-pylance"]
+    }
+  },
+  "remoteUser": "vscode"
+}

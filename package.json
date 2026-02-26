@@ -1,0 +1,9 @@
+{
+  "name": "aima-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AIMA assignment with MCP curriculum tools",
+  "dependencies": {
+    "@inquiryinstitute/samwise-curriculum-server": "file:./samwise-curriculum-common"
+  }
+}

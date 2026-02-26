@@ -1,0 +1,45 @@
+{
+  "curriculum": "AIMA",
+  "source": "Artificial Intelligence: A Modern Approach, 4th ed. (Russell, Norvig, et al.)",
+  "resources": {
+    "website": "https://aima.cs.berkeley.edu",
+    "exercisesOnline": "https://aimacode.github.io/aima-exercises/",
+    "pseudocodePdf": "https://aima.cs.berkeley.edu/algorithms.pdf",
+    "figuresPdf": "https://aima.cs.berkeley.edu/figures.pdf",
+    "repos": {
+      "aimaPython": "aima-python/",
+      "aimaExercises": "aima-exercises/",
+      "aimaPseudocode": "aima-pseudocode/"
+    }
+  },
+  "lectures": [
+    { "lecture": 1, "title": "Introduction", "part": "I", "partTitle": "Artificial Intelligence", "chapters": [1], "pdf": "chapters/chapter-01.pdf" },
+    { "lecture": 2, "title": "Intelligent Agents", "part": "I", "partTitle": "Artificial Intelligence", "chapters": [2], "pdf": "chapters/chapter-02.pdf" },
+    { "lecture": 3, "title": "Solving Problems by Searching", "part": "II", "partTitle": "Problem-Solving", "chapters": [3], "pdf": "chapters/chapter-03.pdf" },
+    { "lecture": 4, "title": "Search in Complex Environments", "part": "II", "partTitle": "Problem-Solving", "chapters": [4], "pdf": "chapters/chapter-04.pdf" },
+    { "lecture": 5, "title": "Adversarial Search and Games", "part": "II", "partTitle": "Problem-Solving", "chapters": [5], "pdf": "chapters/chapter-05.pdf" },
+    { "lecture": 6, "title": "Constraint Satisfaction Problems", "part": "II", "partTitle": "Problem-Solving", "chapters": [6], "pdf": "chapters/chapter-06.pdf" },
+    { "lecture": 7, "title": "Logical Agents", "part": "III", "partTitle": "Knowledge, Reasoning, and Planning", "chapters": [7], "pdf": "chapters/chapter-07.pdf" },
+    { "lecture": 8, "title": "First-Order Logic", "part": "III", "partTitle": "Knowledge, Reasoning, and Planning", "chapters": [8], "pdf": "chapters/chapter-08.pdf" },
+    { "lecture": 9, "title": "Inference in First-Order Logic", "part": "III", "partTitle": "Knowledge, Reasoning, and Planning", "chapters": [9], "pdf": "chapters/chapter-09.pdf" },
+    { "lecture": 10, "title": "Knowledge Representation", "part": "III", "partTitle": "Knowledge, Reasoning, and Planning", "chapters": [10], "pdf": "chapters/chapter-10.pdf" },
+    { "lecture": 11, "title": "Automated Planning", "part": "III", "partTitle": "Knowledge, Reasoning, and Planning", "chapters": [11], "pdf": "chapters/chapter-11.pdf" },
+    { "lecture": 12, "title": "Quantifying Uncertainty", "part": "IV", "partTitle": "Uncertain Knowledge and Reasoning", "chapters": [12], "pdf": "chapters/chapter-12.pdf" },
+    { "lecture": 13, "title": "Probabilistic Reasoning", "part": "IV", "partTitle": "Uncertain Knowledge and Reasoning", "chapters": [13], "pdf": "chapters/chapter-13.pdf" },
+    { "lecture": 14, "title": "Probabilistic Reasoning over Time", "part": "IV", "partTitle": "Uncertain Knowledge and Reasoning", "chapters": [14], "pdf": "chapters/chapter-14.pdf" },
+    { "lecture": 15, "title": "Probabilistic Programming", "part": "IV", "partTitle": "Uncertain Knowledge and Reasoning", "chapters": [15], "pdf": "chapters/chapter-15.pdf" },
+    { "lecture": 16, "title": "Making Simple Decisions", "part": "IV", "partTitle": "Uncertain Knowledge and Reasoning", "chapters": [16], "pdf": "chapters/chapter-16.pdf" },
+    { "lecture": 17, "title": "Making Complex Decisions", "part": "IV", "partTitle": "Uncertain Knowledge and Reasoning", "chapters": [17], "pdf": "chapters/chapter-17.pdf" },
+    { "lecture": 18, "title": "Multiagent Decision Making", "part": "IV", "partTitle": "Uncertain Knowledge and Reasoning", "chapters": [18], "pdf": "chapters/chapter-18.pdf" },
+    { "lecture": 19, "title": "Learning from Examples", "part": "V", "partTitle": "Machine Learning", "chapters": [19], "pdf": "chapters/chapter-19.pdf" },
+    { "lecture": 20, "title": "Learning Probabilistic Models", "part": "V", "partTitle": "Machine Learning", "chapters": [20], "pdf": "chapters/chapter-20.pdf" },
+    { "lecture": 21, "title": "Deep Learning", "part": "V", "partTitle": "Machine Learning", "chapters": [21], "pdf": "chapters/chapter-21.pdf" },
+    { "lecture": 22, "title": "Reinforcement Learning", "part": "V", "partTitle": "Machine Learning", "chapters": [22], "pdf": "chapters/chapter-22.pdf" },
+    { "lecture": 23, "title": "Natural Language Processing", "part": "VI", "partTitle": "Communicating, Perceiving, and Acting", "chapters": [23], "pdf": "chapters/chapter-23.pdf" },
+    { "lecture": 24, "title": "Deep Learning for Natural Language Processing", "part": "VI", "partTitle": "Communicating, Perceiving, and Acting", "chapters": [24], "pdf": "chapters/chapter-24.pdf" },
+    { "lecture": 25, "title": "Computer Vision", "part": "VI", "partTitle": "Communicating, Perceiving, and Acting", "chapters": [25], "pdf": "chapters/chapter-25.pdf" },
+    { "lecture": 26, "title": "Robotics", "part": "VI", "partTitle": "Communicating, Perceiving, and Acting", "chapters": [26], "pdf": "chapters/chapter-26.pdf" },
+    { "lecture": 27, "title": "Philosophy, Ethics, and Safety of AI", "part": "VII", "partTitle": "Conclusions", "chapters": [27], "pdf": "chapters/chapter-27.pdf" },
+    { "lecture": 28, "title": "The Future of AI", "part": "VII", "partTitle": "Conclusions", "chapters": [28], "pdf": "chapters/chapter-28.pdf" }
+  ]
+}
